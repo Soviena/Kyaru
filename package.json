@@ -1,0 +1,36 @@
+{
+  "name": "kyaru",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soviena/Kyaru.git"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "better-sqlite3": "^7.4.3",
+    "discord.js": "^12.5.3",
+    "distube": "^2.8.18",
+    "enmap": "^5.4.1",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "kuroshiro": "^1.2.0",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0",
+    "lyrics-finder": "^21.7.0",
+    "nekos.life": "^2.0.7",
+    "opusscript": "^0.0.7",
+    "require-stack": "^1.0.2",
+    "simple-youtube-api": "^5.2.1",
+    "translitro": "^0.2.3",
+    "waifur": "^1.0.3",
+    "wanakana": "^4.0.2",
+    "ytdl-core": "^4.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "donkuray",
+  "license": "ISC"
+}
