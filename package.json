@@ -30,7 +30,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node main.js"
+    "dev": "node main.js",
+    "start": "node main.js"
   },
   "author": "donkuray",
   "license": "ISC"
