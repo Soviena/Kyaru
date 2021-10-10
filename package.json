@@ -31,7 +31,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node main.js",
-    "start": "node main.js"
+    "start": "node main.js",
+    "worker": "node main.js"
   },
   "author": "donkuray",
   "license": "ISC"
