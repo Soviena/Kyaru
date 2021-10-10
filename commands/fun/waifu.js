@@ -18,5 +18,7 @@ exports.run = (client, message) => {
         .setColor(Math.floor(Math.random()*16777215).toString(16));
         message.channel.send(embed)
     }
+    message.channel.startTyping();
     waifu();
+    message.channel.stopTyping();
 }

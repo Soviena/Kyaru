@@ -101,7 +101,7 @@ fs.readdir("./commands/", (err,files) => {
   });
 });
 
-fs.readFile('../../../Song Music Lagu/Music/index.json', (err, data) => {
+fs.readFile('./data/index.json', (err, data) => {
   if (err) { throw err; }
   const mp3list = JSON.parse(data);
   client.mp3list = mp3list;
