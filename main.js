@@ -5,7 +5,7 @@ const fs = require("fs");
 //Require
 const lyricsFinder = require('lyrics-finder');
 const translitro = require("translitro").default;
-const config = require("./config.json");
+const config = process.env;
 const vembed = require("./structure/vembed.js");
 const { error } = require("console");
 const DisTube = require('distube');
