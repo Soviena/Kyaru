@@ -1,4 +1,4 @@
-exports.run = (client, message, args) => {
+exports.run = async (client, message, args) => {
     const embed = new client.vembed();
     if(message.author.id !== client.config.ownerID) {
     message.reply("Kamu Bukan Master Ku!");
